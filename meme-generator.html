@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Mèmes</title>
+    <link rel="stylesheet" href="asset/css/meme-generator.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Générateur de Mèmes 🎨</h1>
+    <div class="content">
+        <!-- Left side (canvas and input) -->
+        <div class="left-side">
+            <div class="canvas-container">
+                <h3>Ajoutez du texte</h3>
+                <input type="text" id="textInput" placeholder="Entrez votre texte">
+                <button id="addText">Ajouter du texte</button>
+                <canvas id="memeCanvas"></canvas>
+                <img src="" alt="" id="canvasimage">
+                <button id="downloadMeme">Télécharger le Mème</button>
+            </div>
+        </div>
+
+        <!-- Right side (image selection) -->
+        <div class="image-selection">
+            <h3>Choisissez une image</h3>
+            <div class="images">
+                <img class="select-image" src="asset/css/img/chat_1.png" alt="Image 1" data-img="img/chat_1.png">
+                <img class="select-image" src="asset/css/img/chat_2.png" alt="Image 2" data-img="img/chat_2.png">
+                <img class="select-image" src="asset/css/img/chat_3.png" alt="Image 3" data-img="img/chat_3.png">
+                <img class="select-image" src="asset/css/img/chat_4.png" alt="Image 4" data-img="img/chat_4.png">
+                <img class="select-image" src="asset/css/img/chat_5.png" alt="Image 5" data-img="img/chat_5.png">
+                <img class="select-image" src="asset/css/img/chat_6.png" alt="Image 6" data-img="img/chat_6.png">
+                <img class="select-image" src="asset/css/img/chat_7.png" alt="Image 7" data-img="img/chat_7.png">
+                <img class="select-image" src="asset/css/img/chat_8.png" alt="Image 8" data-img="img/chat_8.png">
+                <img class="select-image" src="asset/css/img/chat_9.png" alt="Image 9" data-img="img/chat_9.png">
+                <img class="select-image" src="asset/css/img/chat_10.png" alt="Image 10" data-img="img/chat_10.png">
+                <img class="select-image" src="asset/css/img/chien_1.png" alt="Image 11" data-img="img/chien_1.png">
+                <img class="select-image" src="asset/css/img/chien_2.png" alt="Image 12" data-img="img/chien_2.png">
+                <img class="select-image" src="asset/css/img/chien_3.png" alt="Image 13" data-img="img/chien_3.png">
+                <img class="select-image" src="asset/css/img/chien_4.png" alt="Image 14" data-img="img/chien_4.png">
+                <img class="select-image" src="asset/css/img/chien_5.png" alt="Image 15" data-img="iimg/chien_5.png">
+                <img class="select-image" src="asset/css/img/chien_6.png" alt="Image 16" data-img="img/chien_6.png">
+                <img class="select-image" src="asset/css/img/chien_7.png" alt="Image 17" data-img="img/chien_7.png">
+                <img class="select-image" src="asset/css/img/chien_8.png" alt="Image 18" data-img="img/chien_8.png">
+                <img class="select-image" src="asset/css/img/chien_9.png" alt="Image 19" data-img="img/chien_9.png">
+                <img class="select-image" src="asset/css/img/chien_10.png" alt="Image 20" data-img="img/chien_10.png">
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="js/meme-generator.js"></script>
+</body>
+</html>
